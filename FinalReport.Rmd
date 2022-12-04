@@ -1,0 +1,43 @@
+---
+title: "Predicting Auto Insurance Claims"
+author: "Alan Bouwman, Kazeem Kareem"
+date: "December 3, 2022"
+output: pdf_document
+---
+
+# Introduction
+
+```{r setup, include=FALSE}
+library(naniar)
+library(dplyr)
+library(moments)
+library(corrplot)
+library(AppliedPredictiveModeling)
+library(caret)
+library(e1071)
+library(cplm)
+library(tweedie)
+library(moments)
+library(fastDummies)
+library(statmod)
+library(HDtweedie)
+library(Hmisc)  
+#####  AutoCaim data
+
+# Load from package
+
+```
+
+# Exploring the Data
+```{r}
+data(AutoClaim)
+```
+
+# Pre Processing and Data Spending
+
+# Predictive Models
+
+
+# Conclusion
+
+# Appendix A: Code
